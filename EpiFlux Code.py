@@ -21,6 +21,7 @@ class EpiNet1(nn.Module):
       self.fc1 = nn.linear(input_size, 128)
       self.fc2 = nn.linear(128, 64)
       self.fc3 = nn.linear(64, 1)
+      self.sigmoid = nn.sigmoid()
 
 
 
